@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
+## Yohann Tourdes
+### Etudiant en école d'ingénieur
+---
 
-You can use the [editor on GitHub](https://github.com/yohannts/yohannts.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<div >
+    <h3>Introduction:</h3>
+    <p style="
+        margin-left: 6em;"
+    >
+        Je suis un étudiant en informatique et en mathématique
+        appliquées. J’utilise principalement Python pour le moment, et je
+        viens de faire un stage intensif en C. J’aimerai commencer ma
+        carrière dans un domaine qui puisse me donner un certain
+        challenge et qui me permettrait de m’améliorer.
+    </p>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div >
+    <h3>Parcours académique:</h3>
+    <div style="margin-left: 6em;">
+        <h4>2020-2023 | <a href="https://ensimag.grenoble-inp.fr/">Grenoble INP - Ensimag, UGA</a></h4>
+        <h6 style="margin-left: 1em">Ecole d'ingénieur supérieure d'informatique et de mathématiques appliquées de Grenoble</h6>
+        <p> 
+        <ul>
+            <li>Spécialisation voulue: Ingénieurie financière
+            <li>Prgrammation en Python et C
+            <li>Analyse, Méthode numérique
+            <li>Recherche opérationnelle, Probabilité et Statistique
+        </ul>
+        </p>
+    </div>
+    <div style="margin-left: 6em;">
+        <h4>2018-2020 |<a href="https://marie-curie-nogent-sur-oise.ac-amiens.fr/"> CPGE PTSI/PT</a></h4>
+        <h6 style="margin-left: 1em">Lycée Marie Curie de Nogent sur Oise</h6>
+        <p> 
+        <ul>
+            <li>Enseignements scientifiques multidisciplinaires
+            <li>Nombreux Oraux et préparation à la prise de parole
+        </ul>
+        </p>
+    </div>
+</div>
 
-### Markdown
+<div >
+    <h3>Experiences professionelles:</h3>
+    <div style="
+        margin-left: 6em;"
+    >
+        <h4 style="margin-left: 1em;" >Projets Académiques</h4>
+        <p>Coucou</p>
+    </div>
+    <div style="
+        margin-left: 6em;"
+    >
+        <h4 style="margin-left: 1em;" >Stage</h4>
+        <p>Coucou</p>
+    </div>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yohannts/yohannts.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<div >
+    <h3>Compétence:</h3>
+    <div style="
+        margin-left: 6em;"
+    >
+        <h4 style="margin-left: 1em;" >Langues</h4>
+        <p>Coucou</p>
+    </div>
+    <div style="
+        margin-left: 6em;"
+    >
+        <h4 style="margin-left: 1em;" >Techniques</h4>
+        <p>Coucou</p>
+    </div>
+</div>
