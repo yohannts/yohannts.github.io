@@ -17,7 +17,7 @@
 
 <div >
     <h3>Parcours académique:</h3>
-    <div style="margin-left: 6em;">
+    <div style="margin-left: 3em;">
         <h4>2020-2023 | <a href="https://ensimag.grenoble-inp.fr/">Grenoble INP - Ensimag, UGA</a></h4>
         <h6 style="margin-left: 1em">Ecole d'ingénieur supérieure d'informatique et de mathématiques appliquées de Grenoble</h6>
         <p> 
@@ -29,7 +29,7 @@
         </ul>
         </p>
     </div>
-    <div style="margin-left: 6em;">
+    <div style="margin-left: 3em;">
         <h4>2018-2020 |<a href="https://marie-curie-nogent-sur-oise.ac-amiens.fr/"> CPGE PTSI/PT</a></h4>
         <h6 style="margin-left: 1em">Lycée Marie Curie de Nogent sur Oise</h6>
         <p> 
