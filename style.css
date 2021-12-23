@@ -1,34 +1,119 @@
-.color_bg {
-    background-color:#CCC;
+@import url("./variables.css");
+body {
+    background-color: var(--white);
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "navbar content" "navbar content", "navbar content";
+    grid-template-columns: 5vw 95vw;
+    grid-template-rows: 100vh 100vh 100vh;
 }
 
-.color_secondary_txt {
-    color:#6d071a;
+a {
+    all: unset;
 }
 
-.color_secondary_bg {
-    background-color: #6d071a;
+.nav {
+    grid-area: "navbar";
+    opacity: 1;
+    color: var(--main);
+    font-size: 3vh;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    background-color: var(--white);
+    background-size: cover;
+    padding: 0;
+    height: 100vh;
+    width: 5vw;
 }
 
-.card_primary {
-    display:flex;
+.nav-list {
+    display: grid;
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+    grid-template-columns: 5vw;
+    padding: 0;
+    margin: 0;
+    background-color: var(--white);
+}
+
+.nav-list>a {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    transform: rotate(-90deg);
+    align-items: center;
+}
+
+.nav-list>a:hover {
+    transform: rotate(-90deg);
+    color: var(--main-secondary);
+    text-shadow: var(--black) 1px 0 0;
+}
+
+body>div {
+    grid-area: "content";
+    width: 90vw;
+    margin: 0 0 0 5vw;
+    height: 100vh;
+}
+
+.welcome {
+    height: 100vh;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    color: var(--main);
+    font-size: 10vh;
+    text-shadow: var(--main-secondary) 0.5vh 0 0;
+}
+
+.presentation {
+    background-color: var(--main);
+    width: 95vw;
+}
+
+.presentation>h1 {
+    height: 10vh;
+    width: 95vw;
+    text-align: center;
+    font-size: 10vh;
+    color: var(--white);
+    text-shadow: var(--black) 1vh 0 0;
+}
+
+.presentation>div {
+    min-height: 100vh;
+    width: 95vw;
+    display: grid;
+    row-gap: 1vh;
+    grid-template-columns: 47vw 47vw;
+    grid-template-rows: 20vh 20vh;
+}
+
+.presentation>div>div {
+    display: flex;
     flex-direction: column;
-    width:100%;
-    margin-bottom: 0;
-    background-color: #DDD;
-    color:black
 }
 
-.card_secondary {
-    background-color: #853c49;
-    display:flex;
-    flex-direction: column;
-    width:100%;
-    margin-bottom: 0;
-    color:white
+.image {
+    background-size: cover;
+    width: 47vw;
+    height: 20vh;
 }
 
-.picture_card {
-    margin:0;
-    width:15em;
+.description {
+    margin-left: 1vw;
+    color: var(--white);
+}
+
+.description>p {
+    overflow: auto;
 }
