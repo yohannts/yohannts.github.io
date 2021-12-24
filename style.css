@@ -78,6 +78,7 @@ body>div {
 .presentation {
     background-color: var(--main);
     width: 95vw;
+    height: 100vh;
 }
 
 .presentation>h1 {
@@ -90,12 +91,11 @@ body>div {
 }
 
 .presentation>div {
-    min-height: 100vh;
     width: 95vw;
     display: grid;
     row-gap: 1vh;
     grid-template-columns: 47vw 47vw;
-    grid-template-rows: 20vh 20vh;
+    grid-template-rows: 25vh 25vh;
 }
 
 .presentation>div>div {
@@ -105,15 +105,80 @@ body>div {
 
 .image {
     background-size: cover;
-    width: 47vw;
-    height: 20vh;
+    width: 100%;
+    height: 100%;
 }
 
 .description {
     margin-left: 1vw;
+    margin-right: 1vw;
     color: var(--white);
 }
 
 .description>p {
     overflow: auto;
+}
+
+.projects {
+    background-color: var(--white);
+    width: 95vw;
+    height: 100vh;
+}
+
+.projects>h1 {
+    height: 10vh;
+    width: 95vw;
+    text-align: center;
+    font-size: 10vh;
+    color: var(--main);
+    text-shadow: var(--main-secondary) 0.5vh 0 0;
+}
+
+.projects>.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vh;
+}
+
+.card {
+    background-size: cover;
+    width: 43vw;
+    height: 25vh;
+    margin: 1vh;
+    border-radius: 1vh;
+    padding-left: 1%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.card>div {
+    background-color: var(--white);
+    text-align: center;
+    height: 80%;
+    width: 35%;
+    padding: 1%;
+    border-radius: 0.25vh;
+    color: var(--main)
+}
+
+.contact {
+    height: 100vh;
+    width: 95vw;
+    background-color: var(--main);
+}
+
+.contact>h1 {
+    height: 10vh;
+    width: 95vw;
+    text-align: center;
+    font-size: 10vh;
+    color: var(--white);
+    text-shadow: var(--black) 1vh 0 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 90vw;
+    }
 }
